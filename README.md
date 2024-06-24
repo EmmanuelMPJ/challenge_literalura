@@ -1,4 +1,4 @@
-# Conversor de moneda
+# Literalura
 
 El proyecto LiterAlura es una aplicación de consola basada en Spring Boot que permite acceder a una vasta colección de datos sobre libros a través de la API de Gutendex.com. Con esta aplicación, los usuarios pueden extraer información de libros desde la API ingresando palabras clave tal como pueden ser una parte del título del libro, parte del nombre de un autos, etc. y almacenarla en una base de datos para su posterior uso. La aplicación también cuenta con una función que permite buscar autores que vivieron en una fecha determinada ingresada por el usuario.
 
