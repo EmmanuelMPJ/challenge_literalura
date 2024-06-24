@@ -1,8 +1,8 @@
 # Conversor de moneda
 
-El proyecto LiterAlura es una aplicación de consola basada en Spring Boot que permite acceder a una vasta colección de datos sobre libros a través de la API de Gutendex.com. Con esta aplicación, los usuarios pueden extraer información de libros desde la API y almacenarla en una base de datos para su posterior uso. Además, los usuarios pueden realizar consultas sobre sus libros guardados por título, género, idioma y autor. La aplicación también cuenta con una función que permite buscar autores que vivieron más allá de una fecha determinada ingresada por el usuario.
+El proyecto LiterAlura es una aplicación de consola basada en Spring Boot que permite acceder a una vasta colección de datos sobre libros a través de la API de Gutendex.com. Con esta aplicación, los usuarios pueden extraer información de libros desde la API ingresando palabras clave tal como pueden ser una parte del título del libro, parte del nombre de un autos, etc. y almacenarla en una base de datos para su posterior uso. La aplicación también cuenta con una función que permite buscar autores que vivieron en una fecha determinada ingresada por el usuario.
 
-Agradecemos especialmente a Gutendex.com por proporcionar los datos de los libros y a la comunidad de Spring Boot por ofrecer un marco de trabajo tan robusto.
+Se agradece especialmente a Gutendex.com por proporcionar los datos de los libros y a la comunidad de Spring Boot por ofrecer un marco de trabajo tan robusto y a Alura por todo lo enseñado.
 
 # Tecnologías utilizadas
 - Java: The core programming language used for developing the application.
