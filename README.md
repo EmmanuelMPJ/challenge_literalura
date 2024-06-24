@@ -30,6 +30,7 @@ Se agradece especialmente a Gutendex.com por proporcionar los datos de los libro
 - `Buscar libros por idioma`: Se le pide al usuario que ingrese uno de los codigos de idioma (es, en, fr, pt) y se muestra en consola la cantidad de libros y los libros que están guardados en dicho idioma.
 - `Acción de salir`: Cuando el usuario haya culminado con el uso del programa se agregó una opción para terminar este mismo (opción 0).
 
+*Nota*: Se debe reemplazar ${DB_PASSWORD} por la contraseña con la que accede a postgreSQL y ${DB_NAME} por el nombre de la base de datos que se haya creado, en el archivo "C:\Users\User\Documents\ProyectosAlura\challenge_literalura\src\main\resources\application.properties"
 
 # Autor
 [<img src="https://avatars.githubusercontent.com/u/168949963?v=4" width=115><br><sub>Emmanuel Paternina</sub>](https://github.com/EmmanuelMPJ)
