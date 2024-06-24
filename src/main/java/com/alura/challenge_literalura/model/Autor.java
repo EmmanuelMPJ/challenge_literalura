@@ -33,7 +33,8 @@ public class Autor {
         List<String> tituloLibros = libros.stream()
                 .map(Libro::getTitulo)
                 .toList();
-        return "nombre: " + nombre + '\n' +
+        return "-----------------Autor-----------------" +'\n' +
+                "nombre: " + nombre + '\n' +
                 "Fecha de nacimiento: " + anioNacimiento + '\n' +
                 "Fecha de defunción: " + anioMuerte + '\n' +
                 "Libros: " + tituloLibros + '\n';

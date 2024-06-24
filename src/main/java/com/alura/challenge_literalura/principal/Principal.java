@@ -32,8 +32,7 @@ public class Principal {
     }
 
     public void muestraElMenu() {
-        var opcion = -1;
-        while (opcion != 0) {
+        loop: while (true) {
             var menu = """
                     ------------------------------------------------
                     1 - Buscar y agregar libro por título
@@ -44,28 +43,27 @@ public class Principal {
                     0 - Salir
                     """;
             System.out.println(menu);
-            opcion = scan.nextInt();
-            scan.nextLine();
+            String opcion = scan.nextLine();
 
             switch (opcion) {
-                case 1:
+                case "1":
                     guardarLibroEncontrado();
                     break;
-                case 2:
+                case "2":
                     mostrarLibrosRegistrados();
                     break;
-                case 3:
+                case "3":
                     mostrarAutoresRegistrados();
                     break;
-                case 4:
+                case "4":
                     mostrarAutoresVivosCiertoAnio();
                     break;
-                case 5:
+                case "5":
                     mostrarLibrosPorIdioma();
                     break;
-                case 0:
+                case "0":
                     System.out.println("Cerrando la aplicación...");
-                    break;
+                    break loop;
                 default:
                     System.out.println("Opción inválida");
             }
