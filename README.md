@@ -23,8 +23,7 @@ Se agradece especialmente a Gutendex.com por proporcionar los datos de los libro
 
 # :hammer:Funcionalidades del proyecto
 - `Menú`: Contiene un menú que se muestra en consola, en el que se pide al usuario ingresar un numero entre 0 y 5 para elegir la acción que quiere realizar.
-- `: Se crearon los metodos y clases necesarias para la solicitud de la información a la API y el correcto tratamiento de esta información para poder ser usada.
-- `Consumo de la API y Persistencia de los datos de los libros consultados (Opción 2)`: Se crearon los metodos y clases necesarias para la solicitud de la información a la API y el correcto tratamiento de esta información para poder ser usada. Al hacer la busqueda de un libro en gutendex, este se guarda en la base de datos que tengas en PostgreSQL.
+- `Consumo de la API y Persistencia de los datos de los libros consultados (Opción 1)`: Se crearon los metodos y clases necesarias para la solicitud de la información a la API y el correcto tratamiento de esta información para poder ser usada. Al hacer la busqueda de un libro en gutendex, este se guarda en la base de datos que tengas en PostgreSQL.
 - `Listar libros registrados (Opción 2)`: Se muestran en consola los libros que se hayan guardado en la base de datos.
 - `Listar autores registrados (Opción 3)`: Se muestran en consola los autores que se hayan guardado en la base de datos dependiendo de los libros que se hayan registrado.
 - `Listar autores vivos en un determinado año`: Se le pide al usuario ingresar un año y se muestran en consola los autores que hayan estado vivos en dicho año (si los hay).
